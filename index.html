@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>¿Qué tiempo hace?</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css?a">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/js.js"></script>
+    <script src="/js/sweetalert2.all.min.js"></script>
+</head>
+<body>
+    <center>
+    <div class="margenes card cardStyle">
+        <form>
+
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input type="name" class="form-control" id="nombre" required>
+                <div id="nombreCorrecto" class="valid-feedback">
+                 ¡Perfecto!
+                </div>
+                <div id="nombreIncorrecto" class="invalid-feedback">
+                    ¡Falta tu nombre!
+                </div>
+            </div>
+            
+            <div class="mb-3">
+              <label for="pais" class="form-label">Ciudad</label>
+              <input type="text" class="form-control" id="ciudad" required>
+                 <div id="ciudadCorrecto" class="valid-feedback">
+                      ¡Perfecto!
+                 </div>
+                  <div id="ciudadIncorrecto" class="invalid-feedback">
+                      ¡Falta ciudad!
+                  </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="pais" class="form-label">País</label>
+                <input type="text" class="form-control" id="pais" required>
+                <div id="paisCorrecto" class="valid-feedback">
+                    ¡Perfecto!
+                </div>
+                <div id="paisIncorrecto" class="invalid-feedback">
+                    ¡Falta país!
+                </div>
+            </div>
+
+            
+            <div class="col-12 text-center">
+                <button class="btn btn-primary" id="buscar">Buscar tiempo</button>
+            </div>
+          </form>
+    </div>
+</center>
+    
+    
+
+</body>
+
+</html>
