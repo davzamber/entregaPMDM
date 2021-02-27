@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(62, 147, 226);
+}
+.margenes {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 50%;
+}
+.cardStyle{
+
+  padding: 1%;
+}
